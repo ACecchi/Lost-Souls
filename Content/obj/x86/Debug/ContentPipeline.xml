@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Knight\Fireball1.png</Source>
+      <Name>Knight\Fireball1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Fireball1.xnb</Output>
+      <Time>2010-10-05T09:30:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Fireball2.png</Source>
+      <Name>Knight\Fireball2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Fireball2.xnb</Output>
+      <Time>2010-10-05T09:30:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Fireball3.png</Source>
+      <Name>Knight\Fireball3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Fireball3.xnb</Output>
+      <Time>2010-10-05T09:30:38-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Fireball4.png</Source>
+      <Name>Knight\Fireball4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Fireball4.xnb</Output>
+      <Time>2010-10-05T09:30:42-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Fireball5.png</Source>
+      <Name>Knight\Fireball5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Fireball5.xnb</Output>
+      <Time>2010-10-05T09:30:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Fireball6.png</Source>
+      <Name>Knight\Fireball6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Fireball6.xnb</Output>
+      <Time>2010-10-05T09:30:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Fireball7.png</Source>
+      <Name>Knight\Fireball7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Fireball7.xnb</Output>
+      <Time>2010-10-05T09:31:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Fireball8.png</Source>
+      <Name>Knight\Fireball8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Fireball8.xnb</Output>
+      <Time>2010-10-05T09:31:04-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Knight1.png</Source>
+      <Name>Knight\Knight1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Knight1.xnb</Output>
+      <Time>2010-10-05T08:22:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Knight2.png</Source>
+      <Name>Knight\Knight2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Knight2.xnb</Output>
+      <Time>2010-10-05T08:22:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Knight3.png</Source>
+      <Name>Knight\Knight3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Knight3.xnb</Output>
+      <Time>2010-10-05T08:22:38-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Knight4.png</Source>
+      <Name>Knight\Knight4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Knight4.xnb</Output>
+      <Time>2010-10-05T08:22:44-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Knight5.png</Source>
+      <Name>Knight\Knight5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Knight5.xnb</Output>
+      <Time>2010-10-05T08:22:48-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Knight6.png</Source>
+      <Name>Knight\Knight6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Knight6.xnb</Output>
+      <Time>2010-10-05T08:22:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Knight7.png</Source>
+      <Name>Knight\Knight7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Knight7.xnb</Output>
+      <Time>2010-10-05T08:22:58-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Knight8.png</Source>
+      <Name>Knight\Knight8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Knight8.xnb</Output>
+      <Time>2010-10-05T08:23:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Knight9.png</Source>
+      <Name>Knight\Knight9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Knight9.xnb</Output>
+      <Time>2010-10-05T08:23:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Sword1.png</Source>
+      <Name>Knight\Sword1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Sword1.xnb</Output>
+      <Time>2010-10-05T08:39:00-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Sword10.png</Source>
+      <Name>Knight\Sword10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Sword10.xnb</Output>
+      <Time>2010-10-05T08:39:58-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Sword2.png</Source>
+      <Name>Knight\Sword2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Sword2.xnb</Output>
+      <Time>2010-10-05T08:39:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Sword3.png</Source>
+      <Name>Knight\Sword3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Sword3.xnb</Output>
+      <Time>2010-10-05T08:39:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Sword4.png</Source>
+      <Name>Knight\Sword4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Sword4.xnb</Output>
+      <Time>2010-10-05T08:39:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Sword5.png</Source>
+      <Name>Knight\Sword5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Sword5.xnb</Output>
+      <Time>2010-10-05T08:39:26-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Sword6.png</Source>
+      <Name>Knight\Sword6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Sword6.xnb</Output>
+      <Time>2010-10-05T08:39:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Sword7.png</Source>
+      <Name>Knight\Sword7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Sword7.xnb</Output>
+      <Time>2010-10-05T08:39:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Sword8.png</Source>
+      <Name>Knight\Sword8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Sword8.xnb</Output>
+      <Time>2010-10-05T08:39:38-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Sword9.png</Source>
+      <Name>Knight\Sword9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Sword9.xnb</Output>
+      <Time>2010-10-05T08:39:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Zombie\Zombie1.png</Source>
+      <Name>Zombie\Zombie1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Zombie\Zombie1.xnb</Output>
+      <Time>2010-10-05T08:23:24-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Zombie\Zombie10.png</Source>
+      <Name>Zombie\Zombie10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Zombie\Zombie10.xnb</Output>
+      <Time>2010-10-05T08:24:38-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Zombie\Zombie11.png</Source>
+      <Name>Zombie\Zombie11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Zombie\Zombie11.xnb</Output>
+      <Time>2010-10-05T08:24:44-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Zombie\Zombie12.png</Source>
+      <Name>Zombie\Zombie12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Zombie\Zombie12.xnb</Output>
+      <Time>2010-10-05T08:24:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Zombie\Zombie13.png</Source>
+      <Name>Zombie\Zombie13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Zombie\Zombie13.xnb</Output>
+      <Time>2010-10-05T08:25:00-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Zombie\Zombie14.png</Source>
+      <Name>Zombie\Zombie14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Zombie\Zombie14.xnb</Output>
+      <Time>2010-10-05T08:25:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Zombie\Zombie2.png</Source>
+      <Name>Zombie\Zombie2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Zombie\Zombie2.xnb</Output>
+      <Time>2010-10-05T08:23:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Zombie\Zombie3.png</Source>
+      <Name>Zombie\Zombie3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Zombie\Zombie3.xnb</Output>
+      <Time>2010-10-05T08:23:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Zombie\Zombie4.png</Source>
+      <Name>Zombie\Zombie4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Zombie\Zombie4.xnb</Output>
+      <Time>2010-10-05T08:23:38-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Zombie\Zombie5.png</Source>
+      <Name>Zombie\Zombie5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Zombie\Zombie5.xnb</Output>
+      <Time>2010-10-05T08:23:50-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Zombie\Zombie6.png</Source>
+      <Name>Zombie\Zombie6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Zombie\Zombie6.xnb</Output>
+      <Time>2010-10-05T08:23:54-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Zombie\Zombie7.png</Source>
+      <Name>Zombie\Zombie7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Zombie\Zombie7.xnb</Output>
+      <Time>2010-10-05T08:23:58-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Zombie\Zombie8.png</Source>
+      <Name>Zombie\Zombie8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Zombie\Zombie8.xnb</Output>
+      <Time>2010-10-05T08:24:04-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Zombie\Zombie9.png</Source>
+      <Name>Zombie\Zombie9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Zombie\Zombie9.xnb</Output>
+      <Time>2010-10-05T08:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Background\Level1.png</Source>
+      <Name>Background\Level1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Background\Level1.xnb</Output>
+      <Time>2010-10-08T14:57:04-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Background\Level2.png</Source>
+      <Name>Background\Level2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Background\Level2.xnb</Output>
+      <Time>2010-10-08T14:57:42-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Background\Level3.png</Source>
+      <Name>Background\Level3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Background\Level3.xnb</Output>
+      <Time>2010-10-08T14:58:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Background\Level4.png</Source>
+      <Name>Background\Level4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Background\Level4.xnb</Output>
+      <Time>2010-10-08T14:59:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Knight\Fireball.png</Source>
+      <Name>Knight\Fireball</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\Knight\Fireball.xnb</Output>
+      <Time>2010-10-04T09:20:36.6698471-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\SANDON\Documents\Visual Studio 2010\Projects\School\GSP-360\Lost_Souls\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2009-05-28T01:16:14-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2009-05-28T01:16:06-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2009-05-28T01:16:16-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2009-05-28T01:16:26-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2009-05-28T01:16:12-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2009-05-28T01:16:06-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2010-01-14T23:53:31.8589701-06:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

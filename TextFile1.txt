@@ -1,0 +1,187 @@
+﻿using System;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+
+namespace GSP360_GameStart
+{
+    class Collision
+    {
+            // Enemy dimensions.
+        int enemyWidth;
+        int enemyHeight;
+        Vector2 enemyPosition;
+        Vector2 enemyCenter;
+
+            // Player dimensions.
+        int playerWidth;
+        int playerHeight;
+        Vector2 playerPosition;
+        Vector2 playerCenter;
+
+            // Identifiers.
+        const int ENEMY  = 0;
+        const int PLAYER = 1;
+        
+
+            // Arrays to store pixel colors.
+        public Color[] enemyColor;
+        public Color[] playerColor;
+
+    /*************************************************************************************************************************************/
+        
+        public Collision(Player player, Enemy enemy)
+        {
+            enemyWidth = 184;
+            enemyHeight = 278;
+            enemyPosition = enemy.GetPosition;
+            enemyCenter = new Vector2(enemyWidth / 2, enemyHeight / 2);
+            enemyColor = new Color[enemyWidth * enemyHeight];
+            enemy.GetTexture.GetData(enemyColor);
+
+            playerWidth = 256;
+            playerHeight = 256;
+            playerPosition = player.GetPosition;
+            playerCenter = new Vector2(playerWidth / 2, playerHeight / 2);
+            playerColor = new Color[playerWidth * playerHeight];
+            player.GetTexture.GetData(playerColor);
+        }
+
+    /*************************************************************************************************************************************/
+
+        private Color PixelColor(int objectNum, int pixelNum)
+        {
+            switch (objectNum)
+            {
+                case ENEMY:
+                    return enemyColor[pixelNum];
+                case PLAYER:
+                    return playerColor[pixelNum];
+            }
+            return Color.White;
+        }
+
+    /*************************************************************************************************************************************/
+
+            // This function checks transparency for per/pixel collisions.
+            // Returns true if there is a collison, false otherwise.
+        private bool PixelCollision(Matrix transformA, int pixelWidthA, int pixelHeightA, int A,
+                                   Matrix transformB, int pixelWidthB, int pixelHeightB, int B)
+        {
+
+            // Set A transformation relative to B. B remains at (0, 0).
+            Matrix AtoB = transformA * Matrix.Invert(transformB);
+
+            // Generate a perpendicular vectors to each rectangle side.
+            Vector2 columnStep;
+            Vector2 rowStep;
+            Vector2 rowStartPosition;
+
+            columnStep = Vector2.TransformNormal(Vector2.UnitX, AtoB);
+            rowStep = Vector2.TransformNormal(Vector2.UnitY, AtoB);
+
+            // Calculate the top left corner of A.
+            rowStartPosition = Vector2.Transform(Vector2.Zero, AtoB);
+
+            // Search each row of pixels in A. Start at top and move down.
+            for (int rowA = 0; rowA < pixelHeightA; rowA++)
+            {
+                // Begin at the left.
+                Vector2 pixelPositionA = rowStartPosition;
+
+                // For each column in the row (move left to right).
+                for (int colA = 0; colA < pixelWidthA; colA++)
+                {
+                    // Get the pixel position.
+                    int X = (int)Math.Round(pixelPositionA.X);
+                    int Y = (int)Math.Round(pixelPositionA.Y);
+
+                    // If the pixel is within the bounds of B,
+                    if (X >= 0 && X < pixelWidthB && Y >= 0 && Y < pixelHeightB)
+                    {
+                        // Get colors of overlapping pixels.
+                        Color colorA = PixelColor(A, colA + rowA * pixelWidthA);
+                        Color colorB = PixelColor(B, X + Y * pixelWidthB);
+
+                        // If both pixels are not completely transparent,
+                        if (colorA.A != 0 && colorB.A != 0)
+                            return true;
+                    }
+
+                    // Move to the next pixel in the row of A.
+                    pixelPositionA += columnStep;
+                }
+
+                // Move to the next row of A.
+                rowStartPosition += rowStep;
+            }
+
+            return false;
+        }
+
+    /*************************************************************************************************************************************/
+
+        private Matrix Transform(Vector2 center, float rotation, Vector2 position)
+        {
+                // Move to origin, rotate, translate.
+            return Matrix.CreateTranslation(new Vector3(-center, 0.0f)) * 
+                                            Matrix.CreateRotationZ(rotation) *
+                                            Matrix.CreateTranslation(new Vector3(position, 0.0f));
+        }
+
+    /*************************************************************************************************************************************/
+
+            // This function will transform a bounding rectangle used in collision detection.
+        private static Rectangle TransformRectangle(Matrix transform, int width, int height)
+        {
+            // Get each corner of texture.
+            Vector2 leftTop = new Vector2(0.0f, 0.0f);
+            Vector2 rightTop = new Vector2(width, 0.0f);
+            Vector2 leftBottom = new Vector2(0.0f, height);
+            Vector2 rightBottom = new Vector2(width, height);
+
+            // Transform each corner
+            Vector2.Transform(ref leftTop, ref transform, out leftTop);
+            Vector2.Transform(ref rightTop, ref transform, out rightTop);
+            Vector2.Transform(ref leftBottom, ref transform, out leftBottom);
+            Vector2.Transform(ref rightBottom, ref transform, out rightBottom);
+
+            // Find the minimum and maximum corners
+            Vector2 min = Vector2.Min(Vector2.Min(leftTop, rightTop),
+            Vector2.Min(leftBottom, rightBottom));
+            Vector2 max = Vector2.Max(Vector2.Max(leftTop, rightTop),
+            Vector2.Max(leftBottom, rightBottom));
+
+            // Return transformed rectangle
+            return new Rectangle((int)min.X, (int)min.Y, (int)(max.X - min.X), (int)(max.Y - min.Y));
+        }
+
+    /*************************************************************************************************************************************/
+
+        public void CheckCollisions()
+        {
+            Matrix playerTransform;
+            Matrix enemyTransform;
+            Rectangle playerRectangle;
+            Rectangle enemyRectangle;
+
+            // Transform the rectangles which surround each sprite.
+            enemyTransform = Transform(enemyCenter, 0.0f, enemyPosition);
+            enemyRectangle = TransformRectangle(enemyTransform, enemyWidth, enemyHeight);
+            playerTransform = Transform(playerCenter, 0.0f, playerPosition);
+            playerRectangle = TransformRectangle(playerTransform, playerWidth, playerHeight);
+
+            // Check bounding rectangles for close proximity.
+            if (enemyRectangle.Intersects(playerRectangle))
+            {
+                // If we get here, do a per/pixel collision check.
+                if (PixelCollision(enemyTransform, enemyWidth, enemyHeight, ENEMY, playerTransform, playerWidth, playerHeight, PLAYER))
+                {
+                    //move = false;
+                }
+            }
+        }
+
+    /*************************************************************************************************************************************/
+
+    } // class: Collision
+} // namespace: Lost_Souls
